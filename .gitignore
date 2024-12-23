@@ -4,6 +4,7 @@
 __pycache__/
 *.py[cod]
 dist
+data/
 
 # macOS
 .DS_Store
