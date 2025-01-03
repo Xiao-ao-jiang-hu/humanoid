@@ -206,6 +206,8 @@ class Truck(Task):
 
     def get_terminated(self):
         terminated = False
+        if self._env.data.qpos[2] < 0.4:
+            terminated = True
         if len(self.packages_on_table) == len(self.package_list):
             terminated = True
         return terminated, {}

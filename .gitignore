@@ -20,3 +20,9 @@ models
 outputs
 runs
 wandb
+
+h1hand-*
+our_videos
+our_checkpoints
+*.png
+*.sh
